@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dark Phoenix Watches</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 20px #00f0ff;
+    }
+
+    header h1 {
+      color: #00f0ff;
+      font-size: 2.5em;
+      text-shadow: 0 0 10px #00f0ff;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #00f0ff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff00f7;
+      text-shadow: 0 0 5px #ff00f7;
+    }
+
+    .hero {
+      background: linear-gradient(to bottom, #111, #0a0a0a);
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 3em;
+      color: #ff00f7;
+      text-shadow: 0 0 15px #ff00f7;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-top: 20px;
+      color: #ccc;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h3 {
+      color: #00f0ff;
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #00f0ff;
+    }
+
+    .section p {
+      max-width: 600px;
+      margin: auto;
+      color: #aaa;
+      font-size: 1.1em;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .product-card {
+      background-color: #111;
+      border: 2px solid #00f0ff50;
+      border-radius: 15px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 0 15px #00f0ff30;
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 20px #ff00f7;
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .product-card h4 {
+      color: #ff00f7;
+      margin: 10px 0 5px;
+    }
+
+    .product-card p {
+      font-size: 0.95em;
+      color: #ccc;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      color: #777;
+      border-top: 1px solid #222;
+      box-shadow: 0 -5px 15px #00f0ff10;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dark Phoenix</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#collection">Collection</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Reignite Time with Neon Precision</h2>
+    <p>Crafted for those who defy the ordinary. Discover the future of watch design.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h3>About Us</h3>
+    <p>At Dark Phoenix, we merge futuristic aesthetics with timeless engineering. Our neon-inspired designs are made for trendsetters who value precision, durability, and bold style.</p>
+  </section>
+
+  <section id="collection" class="section">
+    <h3>Our Collection</h3>
+    <div class="products">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x250?text=Watch+1" alt="Watch 1">
+        <h4>Neon Blaze</h4>
+        <p>Bold red neon with a steel frame for high-impact style.</p>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x250?text=Watch+2" alt="Watch 2">
+        <h4>Phantom Blue</h4>
+        <p>Sleek blue LED face with a futuristic finish.</p>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x250?text=Watch+3" alt="Watch 3">
+        <h4>Radiant Core</h4>
+        <p>A glowing center dial with rotating gears exposed.</p>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x250?text=Watch+4" alt="Watch 4">
+        <h4>Crimson Drift</h4>
+        <p>Minimalist red lines cut through a matte black body.</p>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x250?text=Watch+5" alt="Watch 5">
+        <h4>Electric Pulse</h4>
+        <p>LED ring animation synchronized with time pulses.</p>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x250?text=Watch+6" alt="Watch 6">
+        <h4>Vortex Violet</h4>
+        <p>A swirl of purple light inside a carbon fiber shell.</p>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x250?text=Watch+7" alt="Watch 7">
+        <h4>Midnight Flare</h4>
+        <p>Dark elegance with a vibrant orange glow ring.</p>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x250?text=Watch+8" alt="Watch 8">
+        <h4>Casino</h4>
+        <p>.</p>
+      </div>
+
+      <!-- Product 9 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x250?text=Watch+9" alt="Watch 9">
+        <h4>Ghost Shift</h4>
+        <p>Transparent layers revealing neon internals.</p>
+      </div>
+
+      <!-- Product 10 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x250?text=Watch+10" alt="Watch 10">
+        <h4>Nova Burst</h4>
+        <p>Solar-powered neon dial that glows after dark.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h3>Contact</h3>
+    <p>Reach out at <a href="mailto:info@darkphoenixwatches.com" style="color: #ff00f7; text-decoration: none;">info@darkphoenixwatches.com</a> or follow us on social media @DarkPhoenixWatches.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Dark Phoenix. All rights reserved.
+  </footer>
+
+</body>
+</html>
